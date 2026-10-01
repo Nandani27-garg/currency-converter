@@ -2,6 +2,10 @@
 
 A responsive currency converter built with **HTML, CSS, and JavaScript**. The app fetches exchange-rate data from the ExchangeRate API and converts amounts between supported currencies.
 
+## 🚀 Live Demo
+
+👉 **[Open Currency Converter](https://nandani27-garg.github.io/currency-converter/)**
+
 ## ✨ Features
 
 - 🌍 Multiple currency support
@@ -50,7 +54,7 @@ Rates are fetched dynamically for the selected source currency.
 **Nandani Garg** — B.Tech, Artificial Intelligence & Data Science
 
 - GitHub: https://github.com/Nandani27-garg
-- LinkedIn: https://www.linkedin.com/in/nandani27/
+- LinkedIn: https://www.linkedin.com/in/Nandani27/
 
 ## 📄 License
 
