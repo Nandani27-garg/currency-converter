@@ -53,7 +53,7 @@ form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
     const amount = parseFloat(amountInput.value);
-    const fromCurrency = fromSelect.value;
+    if (!Number.isFinite(amount) || amount <= 0) {\n        resultDiv.textContent = 'Please enter a valid amount.';\n        return;\n    }\n\n    const fromCurrency = fromSelect.value;
     const toCurrency = toSelect.value;
 
     if (isNaN(amount) || amount <= 0) {
